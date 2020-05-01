@@ -1,0 +1,624 @@
+
+<html><head>
+<script type="text/javascript">
+/*HTML Business for Java, 6.0*/
+ur_system = {doc : window.document , mimepath :"/com.sap.portal.design.urdesigndata/themes/portal/custom_tradeshow_01/common/", stylepath : "/com.sap.portal.design.urdesigndata/themes/portal/custom_tradeshow_01/", is508 : false, domainrelaxing : "MINIMAL"};
+var popup_emptydoc = "/htmlb/jslib/emptyhover.html";</script>
+<link rel="stylesheet" href="/com.sap.portal.theming.webdav.themeswebdavlistener/Portal/prtl_std/custom_tradeshow_01/sf3.css?v=7.50.5.1561159052000" />
+
+<!-- EPCF: BOB Core -->
+<meta http-equiv="content-script-type" content="text/javascript"/>
+<script type="text/javascript" src="/com.sap.portal.epcf.loader/script/optimize/js13_epcf.js?3d72c913117b43605f1bcd5a3a79ee4a"></script>
+<script type="text/javascript">
+<!--
+EPCM.relaxDocumentDomain();
+EPCM.init( {
+Level:1,
+DynamicTop:false, // [service=true nestedWinOnAlias=false]
+UAType:9, // [Chrome]
+UAVersion:81.0,
+UAPlatform:1, // [Win]
+UIPMode:"1", // [Default=1, User=0, Personalize=true]
+UIPModeOptions:"",
+UIPWinFeatures:"",
+UIPPortalPath:"http://saint.sogang.ac.kr:80/irj/portal",
+UIPPopupComp:"http://saint.sogang.ac.kr:80/irj/servlet/prt/portal/prtroot/com.sap.portal.epcf.admin.WorkProtectPopup",
+UIPPopupCompSize:"dialogWidth:450px; dialogHeight:200px; status:no",
+UIPPopupMsgNN:"현재\x20페이지에\x20저장하지\x20않은\x20데이터가\x20있습니다.\r\n찾아가기를\x20계속하면서\x20신규\x20윈도우를\x20열겠습니까\x3f",
+UIPPopupMsgND:"현재\x20페이지에\x20저장하지\x20않은\x20데이터가\x20있습니다.\r\n변경사항을\x20삭제하고\x20컨텐트를\x20동일한\x20윈도우에서\x20열겠습니까\x3f",
+DBGException:false,
+nervousFingerTimeout:"0",
+DBCookie:false
+} );
+EPCM.DSM.init( {
+TerminatorURL:"/irj/servlet/prt/portal/prtroot/com.sap.portal.dsm.Terminator",
+WinEmptyUrl:"/com.sap.portal.dsm/images/empty.gif",
+NavAcrossSubFramesUrl:"disabled",
+omitTerminationPopup:false,
+omitLogoffPopup:false,
+ForcedUserDebug:false,
+KeepAliveActive:false,
+KeepAliveDelta:840,
+dsmMethodGetKey:"",
+KeepAliveStopAfter:36000
+} );
+function SAPWP_receiveSessInfo( sessInfo, frameRef ){
+  EPCM.DSM.processSession( sessInfo, frameRef );
+}
+//-->
+</script>
+<!-- EPCF: EOB Core -->
+<title>SAINT</title><meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><link  REL=STYLESHEET  HREF="/com.sap.portal.theming.webdav.themeswebdavlistener/UR/ur/custom_tradeshow_01/sf3.css?rid=87831f426088265e2cde555a3a7fd28e&v=10.30.7.261448.1561159058000"  TYPE="text/css" ></head><body class="prtlBody urFontBaseFam urScrl">
+<!-- EPCF: Component com.sap.portal.runtime.logon.certlogon, igfilipphdlbomfcpokhmdhbmknlombc -->
+<script>
+  var inPortalScript = true
+  var webpath = "C:\Users\samsung\Pictures\seogang\sogang_logon"
+</script>
+
+<link rel=stylesheet href="C:\Users\samsung\Pictures\seogang\sogang_logon\css\urur_nn6.css">
+<script language="javascript">
+var originWindowName=window.name;
+window.name="logonAppPage";
+function restoreWindow() {
+try{
+window.name=originWindowName;
+} catch(ex){}
+}
+</script>
+<script language="JavaScript">
+function putFocus(formInst, elementInst) {
+  if (document.forms.length > 0) {
+    document.forms[formInst].elements[elementInst].focus();
+  }
+}
+
+function setValuesAutoCreation() {
+var form = document.getElementById('logonForm');
+form.j_username.value="";
+form.j_password.value="";
+form.automaticAccountCreation.value="true";
+}
+function submitForm() {
+var form = document.getElementById('logonForm');
+form.submit();
+}
+function clearEntries() {
+  document.logonForm.longUid.value="";
+  document.logonForm.password.value="";
+}
+function setFocusToFirstField() {
+ myform = document.logonForm;
+ try{
+   for (i=0; i<myform.length; i++) {
+    elem = myform.elements[i];
+    if (!elem.disabled) {
+      elemType = elem.type;
+      if (elemType=="text" || elemType=="password") {
+       if (!elem.readOnly && elem.value=="") {
+          elem.focus();
+          break;
+       }
+      }
+      if (elemType=="select-one" || elemType=="select-multiple" || elemType=="checkbox" || elemType=="radio") {
+        elem.focus();
+        break;
+      }
+    }
+   }
+ } catch(ex){
+ }
+}
+function addTenantPrefix() {
+  return true;
+}
+</script>
+<span id="UMELogon">
+<script language="JavaScript">
+if( window.EPCM != null ) {
+  EPCM.subscribeEvent( "urn:com.sapportals.portal:browser", "load", setFocusToFirstField );
+}
+</script>
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="C:\Users\samsung\Pictures\seogang\sogang_logon\css\common.css"/>
+<link rel="stylesheet" type="text/css" href="C:\Users\samsung\Pictures\seogang\sogang_logon\css\style.css"/>
+<script src="C:\Users\samsung\Pictures\seogang\sogang_logon\js\jquery-1.11.1.min.js"></script>
+<script src="C:\Users\samsung\Pictures\seogang\sogang_logon\js\js/common.js"></script>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+
+
+
+
+<script language="JavaScript">
+var blockPage = false;
+</script>
+
+
+
+<script language="JavaScript">
+function writeMessage() {
+	document.write("<h2>An unexpected problem has occurred. Please contact your system administrator and show them this message.</h2>");
+}
+
+if (blockPage) {
+	writeMessage();
+	
+	// According to the tests: 
+	// IE works with document.execCommand() and throws exception if window.stop() is used
+	// Firefox and Chrome work only with window.stop() but do not throw exception if document.execCommand() is used.
+	
+	// For IE 11 the appName object below no longer contains Explorer as the previous versions did. So the following solution no longer works for IE11:
+	//var browserName = navigator.appName;
+	//if (browserName.indexOf("Explorer") > -1) {
+	//	writeMessage();
+	//	document.execCommand("Stop");
+	//} else {
+	//	writeMessage();
+	//	window.stop();
+	//}
+
+	// Detecting the browser based on appName or another navigator object is not very trustworthy and future proof. Hopefully a longer lasting solution is:
+	try {
+		window.stop();
+		//document.write("<h2>window.stop() success!</h2>"); //Actually this line could never be printed as FF and Chrome will stop on previous line
+	} catch (error) {
+		//document.write("<h2>window.stop() did not work. Exception is: "+error+".</h2>");
+		try {
+			document.execCommand("Stop");
+			//document.write("<h2>document.execCommand(\"Stop\") success!</h2>"); // This would be printed in case of IE
+		} catch (error) {
+			//document.write("<h2>document.execCommand(\"Stop\") did not work. Exception is: "+error+".</h2>");
+			document.write("<h2>This browser cannot prevent the Logon Page frame from loading!<br>Do not submit your credentials and contact your system administrator!</h2>");
+		}
+	}
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+<body class="login-bg">
+	<FORM  AUTOCOMPLETE="off"  id="logonForm" name="logonForm" target="logonAppPage" method="post" action="" >
+<input name="login_submit" type="hidden" value="on"><input type="hidden" name="login_do_redirect" value="1" /><input name="no_cert_storing" type="hidden" value="on"><input type="hidden" name="j_salt" value="+mPGy1pFK6h7YNivw+h9zSZlB6s=" />
+
+	<input type="hidden" id="clientIP" name="clientIP" value="58.78.50.243">
+			
+		
+		
+		
+		<div id="login-wrap">
+			<h1><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\login-logo.gif" alt="서강대학교" /></h1>
+			<div class="login-box">
+				<span class="m-img"><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\login-img_new.jpg" alt="" /></span>
+				<div class="login-cont">
+					<h2><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\login-title.gif" alt="MEMBER LOGIN" /></h2>
+					<div class="login-form">
+						<ul class="login">
+							<li>
+								<label for="">ID</label>
+								<input type="text" id="login_id" name="j_username" value="" class="login-id"
+										onblur="if (this.value.length==0) {this.className='login-id'} else {this.className='input_text focusnot'};"
+										onfocus="this.className='input_text focus'"
+								 />
+							</li>
+							<li>
+								<label for="">PASSWORD</label>
+								<input type="password" id="login_pw" name="j_password" class="login-pw" value="" 
+										onblur="if (this.value.length==0) {this.className='login-pw'} else {this.className='input_text focusnot'};"
+										onfocus="this.className='input_text focus'"
+								 onkeydown="if(event.keyCode == 13){btnLogin();}" />
+							</li>
+							<li class="btn">
+								<a href="http://m.sogang.ac.kr/index.do" onclick="javascript:btnLogin()" class="login-btn">LOGIN</a>
+							</li>r
+						</ul>
+						<p class="id-rem">
+						<input id="remCheckbox" type="checkbox" name="check_cook" value="x" onclick="check_frm()" />
+						<label for="remCheckbox">아이디 저장</label>
+						</p>
+						
+																			
+					
+						
+					</div>
+					<div class="login-line">
+						<div class="button">
+							<a href="#" onclick="searchPop1()" class="gray-d first"><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\btn-search-id.gif" alt="Search ID" /></a>
+							<a href="#" onclick="searchPop2()" class="gray-d"><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\btn-search-pw.gif" alt="Search PW" /></a>
+							<a href="#" onclick="searchPop3()" class="gray-d"><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\btn-unlock.gif" alt="Unlock ID" /></a>
+							
+						</div>
+					</div>
+					<div class="set-notice-box">
+<script>
+window.onload = function(){
+//	$('input').focus().select();
+	$("#login_id").focus();
+	var myVar = $("#login_id").val();
+	if(myVar.length > 0){
+		$("#login_pw").focus();
+	}else{
+		$("#login_id").focus();
+	}
+};
+
+function view(x, y, z){
+	newin=window.open('', y, z);
+	if (newin != null) {
+		var htmlString = "<html><head><title>이미지</title></head>";
+			htmlString += "<body leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>";
+			htmlString += "<a href=javascript:window.close()><img src=" + x + " border=0 alt=이미지클릭:화면닫기></a>";
+			htmlString += "</body></html>";
+//			newin.document.open();
+			newin.document.write(htmlString);
+//			newin.document.close();
+			if(newin != null) newin.focus();
+	}
+ }
+ 
+ function popupBrowser(x, y, z){
+	 window.open(x, y, z);	 
+ }
+</script>
+						<div class="set-box" style="margin-top:10px">
+							<h3><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\tit-set.gif" alt="설정" /></h3>
+							<div class="set-article">
+								<h4><a href="#" onClick="popupBrowser('/sogang_logon/browser.html','login_Information','scrollbars=yes,resizable=no,width=817,height=700,left=1,top=1');return false" >
+								브라우저 설정 안내 <img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\login/ic-go.gif" alt="" /></a></h4>
+								<p>IE,Chrome,Safari 사용자를 <br />위한 필수 설정 안내</p>
+								<i class="dotline"><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\line-one.gif" alt="" /></i>
+							</div>
+							<div class="set-article">
+								<h4><a href="#" onClick="view('/sogang_logon/images/login/login_help_001.jpg','login_Information','scrollbars=yes,resizable=no,width=817,height=700,left=1,top=1');return false" >
+								학번 안내 <img src="/sogang_logon/images/login/ic-go.gif" alt="" /></a></h4>
+								<p>2000년 이전 학번 변경 안내</p>
+								<i class="dotline"><img src="/sogang_logon/images/login/line-one.gif" alt="" /></i>
+							</div>
+							<div class="set-article">
+								<h4><a href="#" onClick="view('/sogang_logon/images/login/login_help_002.jpg','login_Information','scrollbars=yes,resizable=no,width=817,height=700,left=1,top=1');return false" >
+								로그인 도움말 <img src="/sogang_logon/images/login/ic-go.gif" alt="" /></a></h4>
+								<p>ID찾기, 비밀번호 변경, 잠금해제 <br/>관련 안내</p>
+							</div>							
+						</div>
+						<div class="l-notice-box" style="margin-top:10px">
+							<h3><img src="C:\Users\samsung\Pictures\seogang\sogang_logon\images\tit-notice.gif" alt="공지사항" /></h3>
+							<ul>
+							
+								<li>
+									<span class="date">2020.04.22 </span>
+									<a href="#" class="lnb-board" data-id="518559" data-url="http://www.sogang.ac.kr/front/boardview.do?pkid=518559&bbsConfigFK=1" title="[지식융합미디어학부] 아트&테크놀로지전공 가상증강현실 전문인력양성사업단 연구원 채용 공고 "
+									style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 210px;display: block;">[지식융합미디어학부] 아트&테크놀로지전공 가상증강현실 전문인력양성사업단 연구원 채용 공고 </a>
+																	
+									<i class="dotline"><img src="/sogang_logon/images/login/line-one.gif" alt="" /></i>
+
+								</li>
+							
+								<li>
+									<span class="date">2020.04.21 </span>
+									<a href="#" class="lnb-board" data-id="518514" data-url="http://www.sogang.ac.kr/front/boardview.do?pkid=518514&bbsConfigFK=1" title="[관재시설팀]  화재 예방 안내"
+									style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 210px;display: block;">[관재시설팀]  화재 예방 안내</a>
+																	
+									<i class="dotline"><img src="/sogang_logon/images/login/line-one.gif" alt="" /></i>
+
+								</li>
+							
+								<li>
+									<span class="date">2020.04.20 </span>
+									<a href="#" class="lnb-board" data-id="518416" data-url="http://www.sogang.ac.kr/front/boardview.do?pkid=518416&bbsConfigFK=1" title="2020학년도 후기 대학원 입시 일정 안내"
+									style="text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 210px;display: block;">2020학년도 후기 대학원 입시 일정 안내</a>
+
+								</li>
+						
+							</ul>
+						</div>
+						
+			<script>
+			$(function(){
+				$('a.lnb-board').click(function(){
+					var sUrl = $(this).attr('data-url');
+					var oWin = window.open(sUrl, 'notice', 'scrollbars=yes,resizable=yes,width=810,height=700,left=1,top=1');
+					oWin.focus();
+				});
+			});
+			</script>
+						
+					</div>
+				</div>
+				<div class="login-footer">
+					<p class="login-copy">COPYRIGHT (C) SOGANG UNIVERSITY. ALL RIGHTS RESERVED.</p>
+					<ul>
+						<li><a href="#" onclick="javascript:openPop();">개인정보처리방침</a></li>
+						<li><a href="http://www.sogang.ac.kr/help.html"  target="_blank">이용불편신고</a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	</form>
+
+	
+	
+<form name="form_ldap" method="post" style="display:none;">
+	<input type="hidden" id="password" name="password" value="">
+	<input type="hidden" id="userName" name="userName" value="">	
+	<iframe id="ldapChange" name="ldapChange"  SRC='' frameborder="0" width="0" height="0" marginwidth="0" marginheight="0" topmargin="0" scrolling="no" style='dispaly:none;'>
+	</iframe>
+</form>
+	
+</body>
+
+
+
+<script language="JavaScript">
+
+function openPop(){
+	 window.open('http://www.sogang.ac.kr/notice/private_rule/privacy05.html','','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,directories=no,width=807,height=600,top=10,left=100')
+	}
+
+//========================================
+//--  check status  print cookie value
+//========================================
+function initId(){
+	var frm = logonForm;
+	var chk_val = getCookie("sogang_new_save_check");
+	if(chk_val == 'x'){
+	  frm.check_cook.checked = true;
+	  get();
+	} 
+}
+
+//========================================
+//-- >>  check click 
+//========================================
+function check_frm(){
+	var frm = logonForm;
+	if(frm.check_cook.checked == true){
+	   set();                          // cookie save       
+	}else{
+	   deleteCookie ("sogang_new_save_id");// cookie delete.
+	   deleteCookie ("sogang_new_save_check");// cookie delete.
+	} 
+}
+
+//=========================================
+//- sogan login cookie insert.
+//=========================================
+function set (){
+	var frm = logonForm;
+	if(frm.j_username.value != null && frm.j_username.value != ""){
+	   setCookie("sogang_new_save_id", frm.j_username.value,3); 
+	   setCookie("sogang_new_save_check","x",3);  //____check value.
+	}
+}
+
+//=========================================
+//-- sogang login id cookie print.
+//=========================================
+function get ()
+{
+	var frm = logonForm;
+	var user_id = getCookie("sogang_new_save_id");
+	if(user_id != null && user_id != ""){
+	 frm.j_username.value = user_id;
+	}//...
+}
+
+function getCookie (sCookieName)
+{
+ var sName=sCookieName+"=", ichSt, ichEnd;
+ var sCookie=document.cookie;
+
+ if ( sCookie.length && ( -1 != (ichSt = sCookie.indexOf(sName)) ) )
+ {
+     if (-1 == ( ichEnd = sCookie.indexOf(";",ichSt+sName.length) ) )
+         ichEnd = sCookie.length;
+     return unescape(sCookie.substring(ichSt+sName.length,ichEnd));
+ }
+ 
+ return null;
+}
+
+
+function setCookie (sName, vValue,expiredays)
+{
+ var todayDate = new Date();
+ if(expiredays == null){        expiredays = 0; }
+ todayDate.setDate( todayDate.getDate() + expiredays );
+ var argv = setCookie.arguments, argc = setCookie.arguments.length;
+ var sExpDate = (argc > 2) ? "; expires="+todayDate.toGMTString() : "";
+ var sPath = (argc > 3) ? "; path="+argv[3] : "";
+ var sDomain = (argc > 4) ? "; domain="+argv[4] : "";
+ var sSecure = (argc > 5) && argv[5] ? "; secure" : "";
+ document.cookie = sName + "=" + escape(vValue,0) + sExpDate + sPath + sDomain + sSecure + ";";
+      //alert("today="+todayDate+"argv[2]"+argv[2]);
+}
+ 
+function deleteCookie (sName)
+{
+ document.cookie = sName + "=" + getCookie(sName) + "; expires=" + (new Date()).toGMTString() + ";";
+}
+
+
+//================================
+//-- search id / password popup
+//================================
+function searchPop(){
+//var url = "/irj/servlet/prt/portal/prttarget/uidpwlogon/prteventname/RPWFS/prtroot/com.sap.portal.navigation.portallauncher.default";
+var url = "/irj/servlet/prt/portal/prtroot/sogang.ac~ui.pdk.search_id_pwd.SearchIDPWD";
+window.open(url, "","width=545,height=677,menubar=no,scollbars=no,status=no,toolbar=no");
+}//..
+
+//2014.07.28 Search 분리 (ID, PWD, UNLOCK);
+function searchPop1(){
+//var url = "/irj/servlet/prt/portal/prttarget/uidpwlogon/prteventname/RPWFS/prtroot/com.sap.portal.navigation.portallauncher.default";
+var url = "/irj/servlet/prt/portal/prtroot/sogang.ac~ui.pdk.search_id_pwd.SearchIDPWD?mode=schID";
+window.open(url, "","width=620,height=350,menubar=no,scollbars=no,status=no,toolbar=no");
+}
+function searchPop2(){
+//var url = "/irj/servlet/prt/portal/prttarget/uidpwlogon/prteventname/RPWFS/prtroot/com.sap.portal.navigation.portallauncher.default";
+var url = "/irj/servlet/prt/portal/prtroot/sogang.ac~ui.pdk.search_id_pwd.SearchIDPWD?mode=schPW";
+window.open(url, "","width=620,height=440,menubar=no,scollbars=no,status=no,toolbar=no");
+}
+function searchPop3(){
+//var url = "/irj/servlet/prt/portal/prttarget/uidpwlogon/prteventname/RPWFS/prtroot/com.sap.portal.navigation.portallauncher.default";
+var url = "/irj/servlet/prt/portal/prtroot/sogang.ac~ui.pdk.search_id_pwd.SearchIDPWD?mode=schUL";
+window.open(url, "","width=620,height=385,menubar=no,scollbars=no,status=no,toolbar=no");
+}
+
+</script>
+<script type="text/javascript">
+
+//저장 여부에 따라 체크박스 선택여부
+initId();
+
+function check_login(userid){
+	var yy = userid.substr(0,4);
+	var date1 = new Date(2019, 1, 25, 10, 00);
+	//alert(date1);
+	var date2 = new Date();
+	date2.setTime(1588246342676)
+
+	//신입생 체크	
+	if(yy == "2019" && date1 > date2){
+		alert("2019학년도 신입생은 2019년 2월 25일(월) 오전 10시부터 \n로그인 가능합니다.");
+		return false;
+	}
+	
+	//편입생 체크
+	if(userid >= "20172061" && userid <= "20179999" && date1 > date2){
+		alert("2019학년도 편입생은 2019년 2월 25일(월) 오전 10시부터 \n로그인 가능합니다.");
+		return false;
+	}
+	
+	//편입생 체크
+	if(userid >= "20182096" && userid <= "20189999" && date1 > date2){
+		alert("2019학년도 편입생은 2019년 2월 25일(월) 오전 10시부터 \n로그인 가능합니다.");
+		return false;
+	}	
+	
+	return true;
+}
+
+function btnLogin() { 
+	if($("#login_id").val() == "" || $("#login_id").val().length < 5){alert("아이디를 입력해 주십시요.");return;}
+	if($("#login_pw").val() == ""){alert("비밀번호를 입력해 주십시요.");return;} 
+
+	if(!check_login($("#login_id").val())){  
+		return;
+	}
+
+	check_frm();
+	ajaxLogon();
+	//logonForm.submit();
+	
+	// 로그인 후에, LDAP 패스워드 변경을 위한 사전작업 (패스워드를 보내놓는다.)
+	//action();
+}
+
+function ajaxLogon(){
+	var filter = "win16|win32|win64|mac|macintel"; 
+	var gubun = "pc1";
+	if(navigator.platform){
+		if(filter.indexOf(navigator.platform.toLowerCase()) < 0) gubun = "mobile1"; 
+	}
+	
+	$.ajax({
+		type:"POST",
+		url:"/irj/servlet/prt/portal/prtroot/sogang.ac~ui.pdk.masthead.ChangeLdapPassword",
+		data:{
+			"userId": "guest",
+			"gubun": gubun,
+			"password" : encodeURIComponent($("#login_pw").val()),
+			"userName" : $("#login_id").val().toUpperCase()
+		},
+		dataType: "jsonp",
+		crossDomain: true,
+    	sucess: function( data, textStatus, jqXHR ){
+    		$("#logonForm").submit();
+        },
+        error: function( jqXHR, textStatus, errorThrown ){
+        	$("#logonForm").submit();
+        }
+	});	
+}
+
+/*
+function action(){
+	var userPassword = document.logonForm.j_password.value;
+	var userName = document.logonForm.j_username.value;	
+	userPassword = escape(replace(userPassword));
+	
+	frm = document.form_ldap; 
+	frm.password.value = userPassword;
+	frm.userName.value = userName;	
+	frm.target="ldapChange";  
+//	frm.action = "/irj/servlet/prt/portal/prtroot/sogang.ac~ui.pdk.masthead.ChangeLdapPassword?password=" + userPassword + "&userId='guest'&gubun=passwordInit";
+	frm.action = "/irj/servlet/prt/portal/prtroot/sogang.ac~ui.pdk.masthead.ChangeLdapPassword?userId='guest'&gubun=passwordInit";
+	frm.submit();
+	frm.target = "";
+}
+*/
+ 
+// &, + 문자에 대해서만 인코딩 한다.
+function replace(url) {  
+    url= url.replace(/&/g,"%26"); 
+    url= url.replace(/\+/g,"%2B"); 
+    return url;
+}
+ 
+<!--		
+  var docDir = document.dir;    
+  if(docDir=="rtl" || docDir=="RTL"){   
+     var elTableCnt = document.getElementById("tblInnerCnt");
+     if(elTableCnt!=undefined){
+       elTableCnt.style.direction="rtl";        
+     }     
+  }  
+  var isFormSubmitted = false;
+  if( document.forms ) {		
+    logonForm.onsubmit=function(){
+      if( isFormSubmitted ) {
+        return false;
+      } else {
+        isFormSubmitted = true;
+        return true;
+      }
+    }
+  }      
+-->
+</script>
+ 
+<script type="text/javascript">
+//juqery user screen size fix for iphone
+/**
+$(document).ready( function() {
+	//Maximize the real estate available to the portal contents
+	stretch_portal_content();
+	$(window).resize( stretch_portal_content );
+});
+
+function stretch_portal_content() {
+	if( $(window).height() > $('body').height() ) {
+		$( '#portal-content' ).height(
+			$(window).height() - ( $('body').height() - $('#portal-content').height() )
+		);
+	}
+}
+**/
+</script>
+</span>
+<SCRIPT>var hash = document.location.hash;if (hash && hash !='#'){ var forms = document.getElementsByTagName('FORM'); for (var i = 0; i < forms.length; i++) {      var form = forms[i];     var currentElement = document.createElement('input');     currentElement.setAttribute('type', 'hidden');     currentElement.setAttribute('name', 'postAnchorString');     currentElement.setAttribute('id', 'postAnchorString');     currentElement.setAttribute('value', hash);     form.appendChild(currentElement);     }}</SCRIPT></body></html>

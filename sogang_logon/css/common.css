@@ -1,0 +1,65 @@
+ @charset "UTF-8";
+/* cyrillic-ext */
+@font-face {
+    font-family:'Nanum';
+    src:url('font/nanum.eot');
+    src:url('font/nanum.eot?#iefix') format('embedded-opentype'), url('font/nanum.woff') format('woff'), url('font/nanum.ttf') format('truetype');
+    font-weight:400;
+    font-style:normal; 
+}
+@font-face {
+    font-family:'NanumBold';
+    src:url('font/nanum_bold.eot');
+    src:url('font/nanum_bold.eot?#iefix') format('embedded-opentype'), url('font/nanum_bold.woff') format('woff'), url('/font/nanum_bold.ttf') format('truetype');
+    font-weight:700;
+    font-style:normal; 
+}
+
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,input,select,textarea,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin:0; padding:0; font-family: "Nanum", "ë§‘ì€ ê³ ë”•", "arial"; color:#333; font-size:12px;vertical-align:middle; letter-spacing:-0.2px; }
+button { font-family: "Nanum", "ë§‘ì€ ê³ ë”•", "tahoma";  }
+div, p, span {margin:0px;padding:0px;}
+dl, dt, dd {margin:0px;padding:0px;}
+ul, ol, li {margin:0px;padding:0px; list-style:none;}
+h1, h2, h3, h4, h5, h6 ,b, th, strong, b{margin:0px;padding:0px; font-family: "NanumBold";}
+table, th, td {margin:0px;border:0px; border-collapse:collapse;}
+img,fieldset,iframe{border:0 none; vertical-align:middle; }
+a {text-decoration:none; border:0px;}
+a:hover{text-decoration:none; border:0px;}
+caption,legend{visibility:hidden;width:0px;height:0px;font-size:0px;line-height:0px}
+iframe,object,video,embed{position:relative;top:0;left:0;max-width:100%}
+i, em, address {font-style:normal}
+label {cursor:pointer}
+iframe,object,video,embed{position:relative;top:0;left:0;max-width:100%}
+
+/* html5 ie9 else */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+   display:block;
+   padding:0;
+   margin:0
+}
+.hidden{visibility:hidden;width:0px;height:0px;font-size:0px;line-height:0px;position:absolute;top:0;left:-9999999999px}
+
+/* clearfix */
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { clear:both;  }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+
+
+.mt30 { margin-top:30px !important }
